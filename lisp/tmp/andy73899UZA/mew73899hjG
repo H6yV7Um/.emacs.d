@@ -1,0 +1,10 @@
+client=yes
+pid=
+verify=1
+foreground=yes
+debug=debug
+syslog=no
+CApath=/Users/andy/.certs
+[8698]
+accept=127.0.0.1:8698
+connect=imap.gmail.com:993

@@ -1,0 +1,7 @@
+# name: get_param for earthshaker
+# key: get_param
+# binding: C-c C-c C-e C-p
+# contributor: andy.chen@ele.me
+# -- 
+$1 = request.params.get('${1:param_name}')
+   $0

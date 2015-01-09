@@ -1,0 +1,31 @@
+;;; ido
+(require 'ido)
+(ido-mode t)
+(ido-everywhere t)
+(setq ido-enable-flex-matching t)
+(setq ido-use-filename-at-point nil)
+(setq ido-auto-merge-work-directories-length 0)
+(setq ido-use-virtual-buffers t)
+;(set ido-enable-flex-matching t)
+
+;;; smex to make M-x better
+(add-to-list 'load-path "~/.emacs.d/lisp/smex")
+(require 'smex)
+(global-set-key [(meta x)] (lambda ()
+                             (interactive)
+                             (or (boundp 'smex-cache)
+                                 (smex-initialize))
+                             (global-set-key [(meta x)] 'smex)
+                             (smex)))
+(global-set-key [(shift meta x)] (lambda ()
+                                   (interactive)
+                                   (or (boundp 'smex-cache)
+                                       (smex-initialize))
+                                   (global-set-key [(shift meta x)]
+						   'smex-major-mode-commands)
+                                   (smex-major-mode-commands)))
+(global-set-key (kbd "C-x C-m") 'smex)
+(global-set-key (kbd "C-x C-m") 'smex-major-mode-commands)
+;; This is your old M-x.
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+(provide 'init-ido)

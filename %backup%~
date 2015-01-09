@@ -1,0 +1,93 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1 localhost
+
+192.168.108.50 devdb
+192.168.108.60 devservice
+192.168.108.60 devfuss.ele.me
+
+# mobile env
+192.168.108.103 mobile
+
+#test environment
+192.168.108.19 testing testingmongo testingservice testingweb rajas testingdb.ele.me testingdb testingmongo.ele.mewalle.testing.ele.me testing.ele.me testingapi.ele.me testingfuss.ele.me testingp.ele.me mongodb_server redis_server statsd_server mysql_slave_server
+192.168.108.19 tools.eleme.test
+192.168.108.19 eleme_test eleme.test m.eleme.test napos.eleme.test walle.eleme.test
+192.168.108.19 fuss.eleme.test
+
+
+#zeus1
+192.168.108.19 databus_server ess_server eas_server fuss_server dbserver eos_server
+192.168.108.16 testingdbslave diablo
+# zeus2
+192.168.108.19 zeus2_sms_server
+#127.0.0.1 zeus2_eus_server
+192.168.108.19 zeus2_eus_server
+192.168.108.19 zeus2_ers_server
+192.168.108.19 zeus2_eos_server
+192.168.108.19 zeus2_eas_server
+192.168.108.19 zeus2_oas_server
+192.168.108.19 zeus2_geos_server
+
+192.168.108.220 dm.ele.me
+#192.168.108.220 dp.ele.me
+219.232.243.180 dp.ele.me
+192.168.108.220 develop.ele.me
+
+219.232.243.180 sp.ele.me
+
+219.232.243.180 prophet
+219.232.243.180 sp.ele.me
+219.232.243.180 sfuss.elemecdn.com
+219.232.243.180 sstatic.elemecdn.com
+
+# production
+59.151.93.77    pg-misc-0
+192.168.1.10     p-web-0
+192.168.1.11     p-web-1
+192.168.1.30     p-mysql-0
+192.168.1.40     p-mysql-1
+192.168.1.60     p-cache-0
+192.168.1.62     p-cache-1
+192.168.1.80     p-service-0
+192.168.1.82     p-service-1
+192.168.1.84     p-service-2
+192.168.1.100    p-file-0
+192.168.1.120    p-lb-0
+192.168.1.121    p-lb-1
+192.168.1.130    p-ilb-0
+192.168.1.132    p-ilb-1
+
+
+
+# Staging
+s-lb-0               54.236.173.58     192.168.1.245
+s-web-1              54.236.207.235    192.168.1.254
+s-service-0          54.208.37.93      192.168.1.127
+s-service-1          54.236.219.137    192.168.1.82
+s-es-0               54.236.219.139    192.168.1.6
+s-cache-0            54.236.219.152    192.168.1.214
+s-cache-1            54.236.117.24     192.168.1.208
+s-mysql-0            54.208.18.38      192.168.1.71
+sg-misc-0            54.236.95.235     192.168.1.7
+s-web-0              54.208.33.213     192.168.1.15
+
+Host sg-misc-0
+Hostname 54.236.95.235
+ ControlMaster no
+ Compression yes
+
+Host s-*
+ UserKnownHostsFile /Users/Andy/.ssh/staging_known_hosts
+ ProxyCommand ssh sg-misc-0 nc %h %p
+ Compression yes
+
+Host s-web-0
+ Hostname 192.168.1.10
+
+Host s-web-1
+ Hostname 192.168.1.11

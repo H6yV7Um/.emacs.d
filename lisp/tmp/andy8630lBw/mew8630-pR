@@ -1,0 +1,10 @@
+client=yes
+pid=
+verify=1
+foreground=yes
+debug=debug
+syslog=no
+CApath=/Users/andy/.certs
+[8719]
+accept=127.0.0.1:8719
+connect=smtp.gmail.com:465

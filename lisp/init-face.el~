@@ -1,0 +1,9 @@
+(set-face-background 'mode-line "#24281f")
+(set-face-foreground 'mode-line "#ececcb")
+(set-face-background 'region "#123130")
+(set-default-font "-*-Monaco-normal-r-*-*-14-102-120-120-c-*-iso8859-1")
+(set-fontset-font
+    (frame-parameter nil 'font)
+    'han
+    (font-spec :family "Hiragino Sans GB" ))
+(provide 'init-face)

@@ -1,0 +1,28 @@
+ls
+cd /usr/local/share/emacs/
+ls
+cd 24.4.50/
+ls
+cd lisp/
+ls
+ls grep TAGS
+ls | grep TAGS
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd src
+ls
+cd share/emacs/24.4.50/lisp/
+ls
+ls
+cd TAGS
+ls
+ls | grep TAGS
+cd TAGS
+ls

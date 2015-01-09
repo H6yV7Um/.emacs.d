@@ -1,0 +1,54 @@
+ls
+cdze
+ls
+cd ~/workspace/eleme/zeus2
+ls
+githash
+git rev-parse HEAD
+cdze
+ls
+ls
+cdze
+ls
+cdze
+cd ../../zeus2
+ls
+git branch
+git co   feature-cancel_order
+ls
+git st
+ls
+ls
+cdwl
+ls
+git st
+git branch
+ls
+ls
+ls
+ls
+git branch
+git co feature-cancel_order
+lgs
+ls
+git s
+git st
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+git st
+ls
+cdze
+ls
+cdze

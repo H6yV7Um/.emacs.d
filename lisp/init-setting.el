@@ -14,4 +14,5 @@
  '(auto-save-file-name-transforms (quote ((".*" "~/.emacs-autosaves/" t))))
  '(backup-directory-alist (quote ((".*" . "~/.emacs-autosaves/")))))
 (set-language-environment "UTF-8")
+(add-to-list 'exec-path "/usr/local/bin/")
 (provide 'init-setting)

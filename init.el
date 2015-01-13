@@ -1,3 +1,6 @@
+;;; Package:
+
+; add lisp directory:
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ; emacs related settings
@@ -24,7 +27,7 @@
 ;(require 'init-spec)
 (require 'init-slime)
 (require 'init-git)
-(require 'init-flymake)
+(require 'init-flycheck)
 (require 'init-autopair)
 (require 'init-autocomplete)
 (require 'init-yasnippet)
@@ -51,5 +54,4 @@
 
 ; custom functions
 (require 'init-functions-and-binds)
-;;; .emacs ends here
-(put 'erase-buffer 'disabled nil)
+;;; init.el ends here

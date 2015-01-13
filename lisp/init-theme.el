@@ -8,9 +8,6 @@
 ;;; color theme
 (add-to-list 'load-path "~/.emacs.d/lisp/color-theme-6.6.0")
 (require 'color-theme)
-(add-to-list 'load-path "~/.emacs.d/lisp/custom-theme")
 (load-theme 'andear t)
 ;; ;;; column indicator
-;(add-to-list 'load-path "~/.emacs.d/lisp/fill-column-indicator")
-;(require 'fill-column-indicator)
 (provide 'init-theme)

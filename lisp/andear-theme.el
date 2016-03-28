@@ -2,8 +2,8 @@
 (custom-theme-set-faces
   'andear
   '(default ((t (:foreground "#cccccc" :background "#000000"))))
-  '(cursor ((t (:background "#d5dfcd"))))
-  '(fringe ((t (:background "#3D3D3D"))))
+  '(cursor ((t (:background "#d5dfcd"))))q
+  '(linum ((t (:background "#3D3D3D"))))
   '(mode-line ((t (:foreground "#cccccc" :background "#24281f"))))
   '(vertical-border ((t (:foreground "#161322" :background "#161322"))))
   '(region ((t (:background "#24281f"))))

@@ -1,0 +1,5 @@
+(setq-default ispell-program-name "aspell")
+(setq org-mode-hook '(lambda()
+		       (flyspell-mode t)
+		       ))
+(provide 'init-flyspell)

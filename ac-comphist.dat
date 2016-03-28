@@ -1,172 +1,50 @@
-((("NAPOS_MOBILE_SET_FOOD_CATEGORY_POSITION" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("NAPOS_MOBILE_ADD_FOOD" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("emacs-python" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("color-theme-tomorrow-real" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("load" .
+((("size" .
    [1 0 0 0])
-  ("init-face" .
-   [1 0 0 0 0 0 0 0 0])
-  ("load-path" .
-   [1 0 0 0 0 0 0 0 0])
-  ("add-to-list" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("init-jabber" .
-   [0 0 0 0 0 0 1 1 0 0 0])
-  ("provide" .
-   [1 0 0 0 0 1 0])
-  ("ac-config-default" .
-   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0])
-  ("earthshaker" .
-   [0 0 0 1 0 0 0 0 0 0 0])
-  ("Android" .
-   [0 0 0 0 1 0 0])
-  ("andy.chen@ele.me" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("and" .
-   [0 0 1])
-  ("m" .
-   [1])
-  ("one" .
-   [1 0 0])
-  ("hours" .
-   [1 0 0 0 0])
-  ("d" .
-   [2])
-  ("load-theme" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("hl-line-mode" .
-   [0 0 1 0 0 0 0 0 0 0 0 0])
-  ("setq" .
-   [5 0 0 0])
-  ("defun" .
-   [2 0 0 0 0])
-  ("print" .
-   [1 0 0 0 0])
-  ("format" .
-   [1 0 0 1 0 1])
-  ("workgroups2" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("get_order_item_rating" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("INT" .
-   [1 0 0])
-  ("EOSUserException" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("order_item_id" .
+  ("basic_pricing" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("request" .
-   [2 0 0 0 1 0 0])
-  ("rating" .
-   [3 0 0 0 0 0])
-  ("response_for_list" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("OrderItemRating" .
-   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
-  ("new" .
-   [1 0 0])
-  ("deserialize" .
-   [0 0 0 1 0 0 0 0 0 0 0])
-  ("result" .
-   [21 0 0 0 0 0])
-  ("SnsBind" .
-   [0 0 0 2 0 0 0])
-  ("self" .
-   [3 0 0 0])
-  ("hasattr" .
-   [0 0 0 0 0 0 1])
-  ("sns_binds" .
-   [2 0 0 1 0 0 0 0 0])
-  ("r" .
-   [2])
-  ("dic" .
-   [2 0 0])
-  ("json_list" .
-   [1 0 0 0 0 0 0 0 0])
-  ("mobile_get_sns_map" .
-   [0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
-  ("user_id" .
-   [2 0 0 0 0 0 0])
-  ("zeus2_eus_thrift" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("sns_maps" .
-   [4 0 0 0 0 0 0 1])
-  ("eus_client" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("sns_map" .
-   [2 0 0 0 0 0 0])
-  ("user_profile" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("Andy" .
-   [0 0 2 0])
-  ("andy.chen" .
-   [0 0 0 0 1 0 0 0 0])
-  ("t" .
-   [3])
-  ("no" .
-   [1 0])
-  ("require" .
-   [0 0 0 1 1 0 0])
-  ("require-package" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("eql" .
-   [0 0 1])
-  (":foreground" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("set-face-foreground" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0])
-  ("color-theme" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("hl-line-face" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  (":background" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("mode-line" .
-   [1 0 0 0 0 0 0 0 0])
-  ("set-face-background" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("emacs-andear" .
-   [1 0 0 0 0 0 0 0 1 3 0 0])
-  ("trade" .
-   [1 0 0 0 0])
-  ("json" .
-   [2 0 0 0])
-  ("loads" .
-   [1 0 0 0 0])
-  ("keys" .
-   [2 0 0 0])
+  ("processes" .
+   [3 0 0 0 1 1 0 0 0])
+  ("number" .
+   [4 0 0 0 0 0])
+  ("total_price" .
+   [2 0 1 0 0 1 0 0 0 1 0])
+  ("unit_price" .
+   [2 0 0 0 0 0 0 1 0 0])
+  ("process" .
+   [6 0 0 0 0 0 0])
+  ("price" .
+   [6 0 0 0 0])
   ("get" .
-   [2 0 0])
-  ("now" .
-   [1 0 0])
-  ("s" .
-   [2])
-  ("b" .
-   [1])
-  ("WIN_RATE" .
-   [0 0 0 1 2 0 0 0])
-  ("SOLD_RATE" .
-   [0 0 0 3 0 0 0 0 0])
-  ("BUY_RATE" .
-   [0 0 0 2 0 0 0 0])
-  ("bc" .
-   [1 0])
-  ("asks" .
-   [1 0 0 0])
-  ("bids" .
-   [1 0 0 0])
-  ("current_price" .
-   [0 0 0 0 0 1 1 0 1 0 0 0 0])
-  ("buy_price" .
-   [1 0 0 0 0 0 0 0 0])
-  ("sold_price" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("bid" .
-   [1 0 0])
-  ("COIN_NUMBER_PER_DAY" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("MIN_UNIT" .
-   [0 0 0 1 0 0 0 0])))
+   [4 0 0])
+  ("product" .
+   [1 0 0 0 0 0 0])
+  ("Base" .
+   [5 0 0 0])
+  ("__tablename__" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0])
+  ("Commodity" .
+   [2 0 0 0 0 0 0 0 0])
+  ("Column" .
+   [15 0 1 3 0 0])
+  ("Integer" .
+   [9 0 3 0 0 0 0])
+  ("primary_key" .
+   [1 0 0 0 0 2 0 0 0 0 0])
+  ("Text" .
+   [4 0 0 0])
+  ("min_price" .
+   [1 0 0 0 0 2 0 0 0])
+  ("commodity" .
+   [3 0 0 0 0 0 0 0 0])
+  ("default" .
+   [5 0 0 0 0 0 0])
+  ("String" .
+   [7 0 0 0 0 0])
+  ("city_id" .
+   [2 0 0 0 0 0 0])
+  ("category_id" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("contactor_nam" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("contactor_name" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])))

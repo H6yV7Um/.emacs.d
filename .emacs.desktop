@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Oct  6 02:18:48 2014
+;; Created Fri Aug 21 11:09:04 2015
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.1
 
@@ -11,218 +11,251 @@
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("gv" "gev" "rebuy" "cart_rebuy" "rebuy" "PATH.REBUY" "rebuy" "dianpin" "lef" "empty" "dev_msg" "unknown_server_error_dev_msg" "invalid_access_token_dev_msg" "authentication_error" "invalid_access_token_dev_msg" "get_conn"))
+(setq search-ring '("live"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/Users/andy/workspace/eleme/earthshaker/requirements.txt" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/restaurant_service.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/validator.py" "/Users/andy/Desktop/hosts" "/Users/andy/workspace/eleme/zeus2/zeus/eos/handler/apps/cart.py" "/Users/andy/workspace/eleme/zeus2/zeus/eos/eos.thrift" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/cart_service.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/__init__.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/payment_service.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/order_service.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/restaurant_service.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/payment_service.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/validator.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/zeus/connection_pool.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/lib/auth.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/zeus/connection_pool.py" "/Users/andy/workspace/eleme/zeus2/zeus/eus/models/sso/session.py" "/Users/andy/workspace/eleme/zeus2/zeus/eus/handler/apps/fingerprint.py" "/Users/andy/workspace/eleme/zeus2/zeus/eus/handler/apps/__init__.py" "/Users/andy/workspace/eleme/zeus2/zeus/eus/app.py" "/Users/andy/workspace/eleme/zeus2/zeus/eus/dispatcher.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/lib/auth.py" "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/user_service.py"))
+(setq file-name-history '("/Users/andy/workspace/eleme/foundation/doc/check.org" "/Users/andy/workspace/eleme/foundation/doc/org.org" "/Users/andy/workspace/eleme/foundation/doc/search.org" "/Users/andy/workspace/eleme/foundation/search/elemesearch/elemesearch-task-core/src/main/java/com/elemesearch/task/core/orderserver/OrderSearchIndexServer.java" "/Users/andy/workspace/eleme/foundation/doc/org.org" "/Users/andy/workspace/eleme/foundation/org.org" "/Users/andy/workspace/eleme/learn/clojure/clojure-getting-started/.git/COMMIT_EDITMSG" "/Users/andy/workspace/eleme/framework/weixin.md" "/Users/andy/workspace/eleme/framework/key.md" "/Users/andy/workspace/eleme/framework/weixin.org" "/Users/andy/workspace/eleme/react/helloworld/SearchPage.js" "/Users/andy/workspace/eleme/react/helloworld/SearchResults.js" "/Users/andy/workspace/eleme/react/helloworld/SearchPage.js" "/Users/andy/workspace/eleme/learn/clojure/clojure-getting-started/src/clojure_getting_started/web.clj" "/Users/andy/workspace/eleme/framework/android/Foundation/configmanager.md" "/Users/andy/workspace/eleme/framework/android/Tracker/README.org" "/Users/andy/workspace/eleme/framework/android/Foundation/README.org" "/Users/andy/workspace/eleme/framework/android/Foundation/ConfigManager.md" "/Users/andy/workspace/eleme/framework/android/Foundation/Tracker.md" "/Users/andy/workspace/eleme/framework/android/Foundation/README.md" "/Users/andy/workspace/eleme/framework/android/Foundation/README.org" "/Users/andy/workspace/eleme/framework/android/Foundation/README.md" "/Users/andy/.emacs.d/init.el" "/Users/andy/.emacs.d/lisp/init-livedown.el" "/Users/andy/.emacs.d/lisp/init-markdown.el" "/Users/andy/workspace/eleme/framework/android/Tracker/README.md"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/restaurant_service.py"
-  "restaurant_service.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  25594
-  '(25603 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/validator.py"
-  "validator.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  595
+  "/Users/andy/workspace/eleme/foundation/doc/check.org"
+  "check.org"
+  'org-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  31
   '(nil nil)
   nil
   nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/cart_service.py"
-  "cart_service.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  19387
-  '(19951 nil)
+  "/Users/andy/workspace/eleme/foundation/doc/org.org"
+  "org.org"
+  'org-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  206
+  '(140 nil)
   nil
   nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/services/cart.py"
-  "cart.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  2598
+  "/Users/andy/workspace/eleme/foundation/doc/search.org"
+  "search.org"
+  'org-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode flyspell-mode)
+  127
+  '(106 t)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/foundation/search/elemesearch/elemesearch-task-core/src/main/java/com/elemesearch/task/core/orderserver/OrderSearchIndexServer.java"
+  "OrderSearchIndexServer.java"
+  'java-mode
+  '(abbrev-mode global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode)
+  2971
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/android/Foundation/README.md"
+  "README.md"
+  'fundamental-mode
+  '(visual-line-mode global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  66
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/android/Foundation/README.org"
+  "README.org"
+  'org-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  2025
   '(1 nil)
   nil
   nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 80)))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
 
 (desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/eos/handler/apps/cart.py"
-  "cart.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  39968
-  '(1 nil)
+  "/Users/andy/workspace/eleme/learn/clojure/clojure-getting-started/src/clojure_getting_started/web.clj"
+  "web.clj"
+  'clojure-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode paredit-mode workgroups-mode)
+  2583
+  '(2538 nil)
   nil
   nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/eos/eos.thrift"
-  "eos.thrift"
-  'thrift-mode
-  '(linum-mode global-auto-revert-mode magit-auto-revert-mode autopair-mode workgroups-mode)
-  42369
-  '(1 nil)
+  "/Users/andy/workspace/eleme/react/helloworld/SearchResults.js"
+  "SearchResults.js"
+  'jsx-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/react/helloworld/SearchPage.js"
+  "SearchPage.js"
+  'jsx-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/eus/models/sso/session.py"
-  "session.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  3645
-  '(3636 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  11624
-  '(25 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/payment_service.py"
-  "payment_service.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  17588
-  '(4024 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/order_service.py"
-  "order_service.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  35212
-  '(29172 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/zeus/connection_pool.py"
-  "connection_pool.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  2032
-  '(5386 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/lib/exceptions/err_code.py"
-  "err_code.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  2176
-  '(2670 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/lib/exceptions/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  1101
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/services/user.py"
-  "user.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  4193
-  '(4001 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/earthshaker/earthshaker/views/user_service.py"
-  "user_service.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  4787
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/eus/handler/apps/fingerprint.py"
-  "fingerprint.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  484
-  '(6667 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/eus/handler/apps/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  6963
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/eus/dispatcher.py"
-  "dispatcher.py"
-  'python-mode
-  '(linum-mode global-auto-revert-mode flymake-mode ropemacs-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode outline-minor-mode)
-  35187
-  '(1 nil)
-  nil
-  nil
-  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 80)))
-
-(desktop-create-buffer 206
-  "/Users/andy/workspace/eleme/zeus2/zeus/oas/oas.thrift"
-  "oas.thrift"
-  'thrift-mode
-  '(linum-mode global-auto-revert-mode magit-auto-revert-mode autopair-mode workgroups-mode)
-  1738
-  '(5763 nil)
+  "/Users/andy/workspace/eleme/framework/keybindings/xcode_plugin.list"
+  "xcode_plugin.list"
+  'fundamental-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/.emacs.d/lisp/init-javascript.el"
+  "init-javascript.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode paredit-mode workgroups-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/react/helloworld/index.ios.js"
+  "index.ios.js"
+  'jsx-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/learn/clojure/pegthing/src/pegthing/core.clj"
+  "core.clj<pegthing>"
+  'clojure-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/wiki/ABTesting.org"
+  "ABTesting.org"
+  'org-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/android/Tracker/README.org"
+  "README.org"
+  'org-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/android/Foundation/ConfigManager.md"
+  "ConfigManager.md"
+  'fundamental-mode
+  '(visual-line-mode global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/android/Foundation/Tracker.md"
+  "Tracker.md"
+  'fundamental-mode
+  '(visual-line-mode global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/andy/workspace/eleme/framework/android/Tracker/README.md"
+  "README.md"
+  'markdown-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode workgroups-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/.emacs.d/lisp/init-livedown.el"
+  "init-livedown.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode paredit-mode workgroups-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/.emacs.d/lisp/init-markdown.el"
+  "init-markdown.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode paredit-mode workgroups-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/.emacs.d/lisp/init-org.el"
+  "init-org.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode paredit-mode workgroups-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/andy/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode linum-mode magit-auto-revert-mode autopair-mode auto-complete-mode paredit-mode workgroups-mode flyspell-mode flycheck-mode)
+  421
+  '(421 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines)))
 

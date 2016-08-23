@@ -22,7 +22,8 @@
 (require 'init-scheme)
 (require 'init-javascript)
 (require 'init-go)
-;(require 'init-clojure)
+;; (require 'init-octave)
+(require 'init-clojure)
 ;(require 'init-common-lisp)
 
 ; programming tools

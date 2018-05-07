@@ -3,7 +3,13 @@
 
 (require 'ox-gfm)
 
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
+
 (setq org-log-done 'time)
+(setq org-todo-keywords
+       '((sequence "NEXT(n)" "TODO(t)" "WAITING(w)" "SOMEDAY(s)" "|" "FINISHED(f)" "DELEGATED(d)" "CANCELED(c)" )))
 
 (eval-after-load "org"
   '(require 'ox-md nil t))

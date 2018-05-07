@@ -1,5 +1,12 @@
 ;;; python env
-(add-to-list 'load-path "~/.emacs.d/lisp/python-mode-6.1.1")
+
+(push "~/.virtualenvs/default/bin" exec-path)
+(setenv "PATH"
+        (concat
+         "~/.virtualenvs/default/bin" ":"
+         (getenv "PATH")
+         ))
+
 (add-hook 'python-mode-hook
           (lambda ()
             (set-fill-column 80)))
@@ -31,11 +38,18 @@
 (setq py-python-command-args
       '("--gui=wx" "--pylab=wx" "-colors" "Linux"))
 (setq py-force-py-shell-name-p t)
-;;; rope
-(add-to-list 'load-path "~/.emacs.d/lisp/pymacs-0.25")
+
+(add-to-list 'load-path "~/.emacs.d/lisp/Pymacs")
 (require 'pymacs)
-(pymacs-load "ropemacs" "rope-")
+;(pymacs-load "ropemacs" "rope-")
 (setq ropemacs-enable-autoimport t)
+
+;(autoload 'pymacs-apply "pymacs")
+;(autoload 'pymacs-call "pymacs")
+;(autoload 'pymacs-eval "pymacs" nil t)
+;(autoload 'pymacs-exec "pymacs" nil t)
+;(autoload 'pymacs-load "pymacs" nil t)
+
 ;;; jedi
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:setup-keys t)

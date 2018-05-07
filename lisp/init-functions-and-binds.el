@@ -10,7 +10,7 @@
 
 
 (defun delete-this-buffer-and-file ()
-  "Removes file connected to current buffer and kills buffer."
+  "Remove file connected to current buffer and kill buffer."
   (interactive)
   (let ((filename (buffer-file-name))
         (buffer (current-buffer))
@@ -37,7 +37,7 @@
 (global-set-key (kbd "C-x g") 'google)
 
 (defun toggle-maximize-buffer ()
-  "Maximize buffer"
+  "Maximize buffer."
   (interactive)
   (if (= 1 (length (window-list)))
       (jump-to-register '_)
@@ -61,7 +61,7 @@
           (set-buffer-modified-p nil))))))
 
 (defun copy-buffer-to-new-file (new-file-name)
-  "copy current buffer content and save as a new file"
+  "Copy current buffer content and save as a new file."
   (interactive "sNew name: ")
   (let ((name (buffer-name))
 	(filename (buffer-file-name)))
@@ -170,6 +170,17 @@ If `universal-argument' is called, copy only the dir path."
        (file-name-directory fPath))))
   (message "File path copied."))
 
+(defun scroll-other-window-up-page ()
+  "Scroll the other windown up one page."
+  (interactive)
+  (scroll-other-window -1))
+
+(defun scroll-other-window-down-page ()
+  "Scroll the other windown down one page."
+  (interactive)
+  (scroll-other-window 1))
+
+
 ;;; for tramp-mode of host
 
 ;; (add-to-list 'tramp-default-proxies-alist
@@ -202,4 +213,7 @@ If `universal-argument' is called, copy only the dir path."
 			       (interactive)
 			       (pop kill-ring)))
 (global-set-key "\C-ca" 'window-numbering-select-previous-window)
+(global-set-key "\C-cr" 'remember)
+(global-set-key [M-left] 'scroll-other-window-up-page)
+(global-set-key [M-right] 'scroll-other-window-down-page)
 (provide 'init-functions-and-binds)

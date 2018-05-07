@@ -1,12 +1,3 @@
-;;; Package:
-
-; add lisp directory:
-
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
-
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ; emacs related settings
@@ -23,21 +14,14 @@
 (require 'init-ack)
 
 ; programming languages
-(require 'init-php)
 (require 'init-python)
-;(require 'init-erlang)
 (require 'init-scheme)
 (require 'init-javascript)
 (require 'init-go)
 (require 'init-rust)
-;; (require 'init-octave)
-;; (require 'init-clojure)
-;; (require 'init-common-lisp)
 
 ; programming tools
 (require 'init-web)
-(require 'init-thrift)
-;(require 'init-spec)
 (require 'init-slime)
 (require 'init-git)
 (require 'init-flycheck)
@@ -48,8 +32,6 @@
 (require 'init-acejump)
 ;; (require 'init-workgroup)
 (require 'init-sql)
-;; (require 'init-cedet)
-;; (require 'init-ecb)
 
 ; edit
 (require 'init-markdown)
@@ -61,7 +43,6 @@
 (require 'init-mew)
 (require 'init-wanderlust)
 (require 'init-jabber)
-(require 'init-wordpress)
 (require 'init-erc)
 (require 'init-hackernews)
 (require 'init-livedown)
@@ -88,9 +69,7 @@
  '(erc-server "irc.elenet.me")
  '(livedown:autostart nil)
  '(livedown:open t)
- '(livedown:port 1337)
- '(package-selected-packages
-   '(full-ack solidity-mode gnuplot format-sql remember-theme python-mode auto-complete popup-complete protobuf-mode rjsx-mode yaml-mode js2-refactor json-mode company racer workgroups2 smartparens s rustfmt rust-mode rainbow-delimiters racket-mode python-pylint python-pep8 pcache nlinum jsx-mode js2-mode jedi google-translate go-eldoc go-autocomplete git-rebase-mode git-commit-mode flycheck exec-path-from-shell cider ac-octave)))
+ '(livedown:port 1337))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

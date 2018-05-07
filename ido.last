@@ -343,7 +343,7 @@
  ("/Users/andy/workspace/eleme/magina/test/" . "http/")
  ("/Users/andy/workspace/eleme/magina/earthshaker/lib/" . "auth/")
  ("/Users/andy/workspace/eleme/earthshaker/earthshaker/views/" . "2/")
- ("/Users/andy/.emacs.d/lisp/" . "ox-gfm/")
+ ("/Users/andy/.emacs.d/lisp/" . "spec-mode/")
  ("/Users/andy/workspace/eleme/earthshaker/earthshaker/lib/" . "pyramid/")
  ("/Users/andy/workspace/eleme/warlock/src/me/ele/activity/address/" . "deliver/")
  ("/Users/andy/workspace/eleme/warlock/src/me/ele/util/" . "request/")
@@ -443,6 +443,7 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/andy/.emacs.d/lisp/"
+ "/Users/andy/.emacs.d/lisp/spec-mode/"
  "/Users/andy/.emacs.d/"
  "/Users/andy/workspace/inv/docs/housing/"
  "/Users/andy/.emacs.d/lisp/ox-gfm/"
@@ -491,30 +492,33 @@
  "/Users/andy/workspace/eleme/biz/talaris-team/talaris-base/talaris-order-service/talaris-core-order/src/main/java/me/ele/talaris/core/order/dto/"
  "/Users/andy/workspace/eleme/biz/talaris-team/talaris-netty-soa/src/main/java/me/ele/talaris/netty/soa/"
  "/Users/andy/workspace/eleme/biz/talaris-team/talaris-common/src/main/java/me/ele/talaris/common/util/"
- "/Users/andy/workspace/eleme/biz/interstellar/tests/handlers/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init-package.el"
- "init.el"
- "init-acejump.el"
- "init-functions-and-binds.el"
- "init-hackernews.el"
- "init-setting.el"
- "flow.org"
- "ox-gfm.el"
- "init-erlang.el"
- "bitcoin.conf"
+ "init-wordpress.el"
+ "init-ecb.el"
+ "init-cedet.el"
+ "init-thrift.el"
+ "spec-mode.el"
+ "init-spec.el"
+ "init-javascript.el"
+ "init-octave.el"
+ "init-clojure.el"
+ "init-common-lisp.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/andy/.emacs.d/" (23280 4794 453935 310000) "tmp/" ".git/" "%backup%~" "#ido.last#" "elpa/" "Cask" "recentf" "network-security.data" ".org-id-locations" ".cask/" "idlwave/" ".gitignore" "notes" ".emacs.desktop.lock" "init.el" "TODO" ".python-environments/" "url/" ".emacs.desktop" "auto-save-list/" "recentf~" "tramp" "ido.last~" "andear-theme.el" "eshell/" ".DS_Store" "lisp/" "ido.last" "ac-comphist.dat" "../" "./")
+ ("/Users/andy/.emacs.d/lisp/" (23280 8605 26742 347000) "init-yasnippet.el" "init-python.el" "metaweblog/" "init-autopair.el" "init-markdown.el" "init-org.el" "ede-projects.el" "init-web.el" "init-face.el~" "window-numbering/" "org2blog/" "init-livedown.el" "init-info.el" "init-theme.el" "init-git.el" "jdee-2.4.1/" "tmp/" "markdown-mode/" "init-wordpress.el" "ace-jump-mode/" "ropemacs-0.7/" "init-setting.el" "init-wanderlust.el" "init-rust.el" "Pymacs/" "elpa/" "init-sr-speedbar.el" "init-erc.el" "init-javascript.el" "init-linum.el" "init-mew.el" "plantuml.jar" "autopair/" "init-package.el" "magit/" "init-scheme.el" "paredit/" "git-modes/" "init-popup.el" "smex/" "init-autocomplete.el" "init-ack.el" "yasnippet/" "init-w3m.el" "init-functions-and-binds.el" "mew-6.5/" "url/" "script/" "auto-save-list/" "init-workgroup.el" "multi-term/" "init-hackernews.el" "ox-gfm/" "init-plantuml.el" "init-jabber.el" "popup-el/" "init-acejump.el" "sr-speedbar/" "init-paredit.el" "init-let-alist.el" "init-go.el" "hackernews.el/" "init-multi-term.el" "init-java.el" "web-mode/" "init-sql.el" "slime/" "auto-complete/" "init-flycheck.el" "andear-theme.el" "eshell/" ".DS_Store" "xml-rpc/" "init-ido.el" "emacs-jabber-0.8.0/" "emacs-livedown/" "init-flyspell.el" "snippets/" "init-window-numbering.el" "init-ansi-term.el" "emacs-w3m/" "init-slime.el" "color-theme-6.6.0/" "workgroups2/" "../" "./")
 
- ("/Users/andy/.emacs.d/lisp/" (23280 4271 797047 896000) "init-yasnippet.el" "init-python.el" "cedet-1.1/" "metaweblog/" "init-autopair.el" "init-markdown.el" "init-org.el" "ede-projects.el" "init-web.el" "init-face.el~" "window-numbering/" "org2blog/" "init-livedown.el" "init-info.el" "init-theme.el" "init-git.el" "jdee-2.4.1/" "tmp/" "markdown-mode/" "init-wordpress.el" "ace-jump-mode/" "ropemacs-0.7/" "init-setting.el" "init-wanderlust.el" "init-rust.el" "init-thrift.el" "Pymacs/" "ecb-snap/" "elpa/" "init-sr-speedbar.el" "capture.el/" "spec-mode/" "init-cedet.el" "init-erc.el" "init-javascript.el" "init-linum.el" "init-mew.el" "plantuml.jar" "autopair/" "init-package.el" "init-ecb.el" "init-octave.el" "magit/" "init-scheme.el" "paredit/" "git-modes/" "init-popup.el" "smex/" "init-autocomplete.el" "init-ack.el" "yasnippet/" "init-w3m.el" "php-mode-1.5.0/" "init-common-lisp.el" "init-functions-and-binds.el" "mew-6.5/" "url/" "script/" "auto-save-list/" "init-workgroup.el" "multi-term/" "init-hackernews.el" "ox-gfm/" "init-plantuml.el" "init-erlang.el" "init-jabber.el" "popup-el/" "init-acejump.el" "init-spec.el" "sr-speedbar/" "init-paredit.el" "init-let-alist.el" "init-go.el" "thrift-mode/" "hackernews.el/" "init-clojure.el" "init-multi-term.el" "init-java.el" "web-mode/" "init-sql.el" "init-php.el" "slime/" "auto-complete/" "init-flycheck.el" "andear-theme.el" "eshell/" ".DS_Store" "xml-rpc/" "init-ido.el" "emacs-jabber-0.8.0/" "elscreen/" "emacs-livedown/" "init-flyspell.el" "snippets/" "init-window-numbering.el" "init-ansi-term.el" "emacs-w3m/" "init-slime.el" "color-theme-6.6.0/" "workgroups2/" "../" "./")
+ ("/Users/andy/.emacs.d/lisp/spec-mode/" (21803 37140 0 0) "spec-mode.el" "../" "./")
 
- ("/Users/andy/" (23280 4248 857047 895000) ".zsh/" ".netease-musicbox/" ".zlogin" ".httpie/" ".AndroidStudio1.2/" ".smex-items" ".yjp/" ".viminfo" ".zcompdump.andy.77781" ".bash_history" ".myclirc" ".pentadactyl/" ".poliporc.vpt" ".plugman/" ".pypirc" ".AndroidStudio1.3/" ".gitconfig" ".zcompdump.zwc" ".inputrc" ".cache/" ".python_history" "Downloads/" ".rediscli_history" ".pm2/" ".weechat/" ".gem/" ".electron-cash/" ".m2/" ".hyper.js" ".vscode/" ".mysql_history" ".tmux/" ".IdeaIC15/" ".babel.json" ".pyenv/" "Documents/" ".npm/" ".zcompdump" ".vimperator/" ".IdeaIC14/" ".zshrc.zwc.old" ".Trash/" ".bitmonero/" ".zsh-update" ".zim/" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" ".pip/" ".ansible/" "macports/" ".cnpmrc" ".cask/" ".joystream/" "Monero/" ".autoenv_authorized.tmp" ".anyproxy/" ".bash_aliases" ".hyper_plugins/" ".bash_prompt" ".code-push.config" ".dropbox/" "Public/" ".zshrc.zwc" ".matlab/" ".lein/" "Sites/" ".cups/" ".cocoapods/" ".pycoin_cache/" ".android/" ".cargo/" ".octave_hist" ".node_repl_history" ".emacs.d/" ".dotfiles/" ".cnpm/" "iCloud Drive (Archive)/" ".oracle_jre_usage/" ".poliporc.direct" ".lesshst" ".jhbuildrc-cfw-10.4u" ".npmrc" ".mackup.cfg" "Library/" ".zhistory" "Desktop/" ".ipython/" ".jhbuildrc-fw-10.4" ".zsh_history" ".v8flags.4.5.103.35.andy.json" ".zcompdump-andy-5.0.2" ".tenpaycert/" ".eleme/" ".jhbuildrc-custom" ".zcompdump-andy-5.0.5" ".rnd" ".nvm/" ".ipfs/" ".mitmproxy/" ".emacs-autosaves/" ".jhbuildrc-cfw-10.4" "Source/" "workspace/" ".multirust/" ".pylint.d/" ".irssi/" "Pictures/" ".rtorrent.rc" ".psql_history" ".local/" ".ideaLibSources/" ".tmux-powerlinerc" ".anyproxy_certs/" "Mail/" ".arcrc" ".zshrc" ".zimrc" ".tmux-osx.conf" ".bashrc" ".subversion/" ".netrc" ".cordova/" "Snapshots/" ".vagrant.d/" ".vscode-react-native/" "bin/" ".zcompdump.andy.42195" ".wget-hsts" ".w3m/" ".CFUserTextEncoding" ".tmux.conf" ".mycli-history" ".ShadowsocksX/" ".electrum/" ".htoprc" ".gnupg/" ".DS_Store" "go/" ".jhbuildrc" ".ant/" ".vim/" "swap-pane" ".virtualenvs/" ".jhbuildrc-fw-10.4-test" ".douban.fm.profile.json" ".node-gyp/" ".heroku/" ".ivy2/" ".docker/" ".gemrc" ".wns/" "douban.fm/" ".zcompdump.zwc.old" ".haproxyrc" ".thefuck/" ".emacs-theme" ".mycli.log" ".mackup/" ".ansible_async/" "Music/" ".config/" ".emacs-workgroups/" ".zshrc.pre" "../" "./")
+ ("/Users/andy/.emacs.d/" (23280 8257 39759 544000) ".git/" "%backup%~" "#ido.last#" "Cask" "recentf" "network-security.data" ".org-id-locations" ".cask/" ".gitignore" "notes" ".emacs.desktop.lock" "init.el" "TODO" ".python-environments/" "url/" ".emacs.desktop" "auto-save-list/" "recentf~" "tramp" "ido.last~" "andear-theme.el" "eshell/" ".DS_Store" "lisp/" "ido.last" "ac-comphist.dat" "../" "./")
+
+ ("/Users/" (23085 17437 438963 236000) "Guest/" "andy/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/andy/" (23280 7821 335689 660000) ".zsh/" ".netease-musicbox/" ".zlogin" ".httpie/" ".AndroidStudio1.2/" ".smex-items" ".yjp/" ".viminfo" ".zcompdump.andy.77781" ".bash_history" ".myclirc" ".pentadactyl/" ".poliporc.vpt" ".plugman/" ".pypirc" ".AndroidStudio1.3/" ".gitconfig" ".zcompdump.zwc" ".inputrc" ".cache/" ".python_history" "Downloads/" ".rediscli_history" ".pm2/" ".weechat/" ".gem/" ".electron-cash/" ".m2/" ".hyper.js" ".vscode/" ".mysql_history" ".tmux/" ".IdeaIC15/" ".babel.json" ".pyenv/" "Documents/" ".npm/" ".zcompdump" ".vimperator/" ".IdeaIC14/" ".zshrc.zwc.old" ".Trash/" ".bitmonero/" ".zsh-update" ".zim/" ".gradle/" ".profile" "Applications/" "Movies/" ".ssh/" ".pip/" ".ansible/" "macports/" ".cnpmrc" ".cask/" ".joystream/" "Monero/" ".autoenv_authorized.tmp" ".anyproxy/" ".bash_aliases" ".hyper_plugins/" ".bash_prompt" ".code-push.config" ".dropbox/" "Public/" ".zshrc.zwc" ".matlab/" ".lein/" "Sites/" ".cups/" ".cocoapods/" ".pycoin_cache/" ".android/" ".cargo/" ".octave_hist" ".node_repl_history" ".emacs.d/" ".dotfiles/" ".cnpm/" "iCloud Drive (Archive)/" ".oracle_jre_usage/" ".poliporc.direct" ".lesshst" ".jhbuildrc-cfw-10.4u" ".npmrc" ".mackup.cfg" "Library/" ".zhistory" "Desktop/" ".ipython/" ".jhbuildrc-fw-10.4" ".zsh_history" ".v8flags.4.5.103.35.andy.json" ".zcompdump-andy-5.0.2" ".tenpaycert/" ".eleme/" ".jhbuildrc-custom" ".zcompdump-andy-5.0.5" ".rnd" ".nvm/" ".ipfs/" ".mitmproxy/" ".emacs-autosaves/" ".jhbuildrc-cfw-10.4" "Source/" "workspace/" ".multirust/" ".pylint.d/" ".irssi/" "Pictures/" ".rtorrent.rc" ".psql_history" ".local/" ".ideaLibSources/" ".tmux-powerlinerc" ".anyproxy_certs/" "Mail/" ".arcrc" ".zshrc" ".zimrc" ".tmux-osx.conf" ".bashrc" ".subversion/" ".netrc" ".cordova/" "Snapshots/" ".vagrant.d/" ".vscode-react-native/" "bin/" ".zcompdump.andy.42195" ".wget-hsts" ".w3m/" ".CFUserTextEncoding" ".tmux.conf" ".mycli-history" ".ShadowsocksX/" ".electrum/" ".htoprc" ".gnupg/" ".DS_Store" "go/" ".jhbuildrc" ".ant/" ".vim/" "swap-pane" ".virtualenvs/" ".jhbuildrc-fw-10.4-test" ".douban.fm.profile.json" ".node-gyp/" ".heroku/" ".ivy2/" ".docker/" ".gemrc" ".wns/" "douban.fm/" ".zcompdump.zwc.old" ".haproxyrc" ".thefuck/" ".emacs-theme" ".mycli.log" ".mackup/" ".ansible_async/" "Music/" ".config/" ".emacs-workgroups/" ".zshrc.pre" "../" "./")
 
  ("/Users/andy/workspace/inv/docs/housing/" (23264 28406 258341 147000) "flow.jpg" "flow.org" "plan.org" "xyd.org" "money.org" "house.org" "jac.org" "flow_python.org" "blockchain_tech.org" "../" "./")
 
@@ -705,10 +709,6 @@
  ("/Users/andy/workspace/eleme/biz/interstellar/testing/" (22804 9424 0 0) "tests/" "pytest.ini" "fixtures/" "conftest.py" "__init__.py" ".gitignore" "../" "./")
 
  ("/Users/andy/workspace/eleme/biz/talaris-team/talaris-base/talaris-order-service/talaris-core-order/src/main/java/me/ele/talaris/core/order/" (22421 48578 0 0) "service/" "exception/" "dto/" "../" "./")
-
- ("/Users/andy/workspace/eleme/biz/talaris-team/talaris-base/talaris-order-service/talaris-core-order/src/main/java/me/ele/talaris/core/" (22421 48578 0 0) "order/" "consts/" "../" "./")
-
- ("/Users/andy/workspace/eleme/biz/talaris-team/talaris-base/talaris-order-service/talaris-core-order/src/main/java/me/ele/talaris/" (22421 48578 0 0) "core/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

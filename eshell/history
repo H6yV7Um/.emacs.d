@@ -52,3 +52,21 @@ ls
 cdze
 ls
 cdze
+ls
+cd ~/.emacs.d/lisp/
+ls
+ls
+cd spec-mode/
+ls
+ls
+cd ..
+rm -rf spec-mode/
+ls
+rm -rf thrift-mode/
+rm -rf cedet-1.1/
+ls
+rm -rf ecb-snap/
+ls
+rm -rf xml-rpc/
+rm -rf metaweblog/
+rm -rf org2blog/
